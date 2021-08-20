@@ -1,0 +1,24 @@
+.grid {
+    display: grid;
+    grid-template-rows: 5vw 20vw 30vw 15vw 5vw;
+}
+
+.navigation {
+    background-color: black;
+}
+
+.banner {
+    background-color: blueviolet;
+}
+
+.posts {
+    background-color: brown;
+}
+
+.subscription {
+    background-color:coral;
+}
+
+.footer {
+    background-color:darkcyan;
+}
