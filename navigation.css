@@ -1,0 +1,22 @@
+.nav-grid {
+    grid-area: nav;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    height: 10vh;
+    padding: 0px 30px 0px 30px;
+}
+
+.nav-links {
+    color: white;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
