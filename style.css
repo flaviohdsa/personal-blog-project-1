@@ -35,6 +35,15 @@ body {
     grid-gap: 20px;
 }
 
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .box {
+        grid-template-columns: 1fr;
+    }
+}
+
 .box {
     background-color: #444;
     margin: 20px;
