@@ -1,7 +1,3 @@
-.nav-grid {
-    grid-area: nav;
-}
-
 .nav-container {
     display: flex;
     flex-direction: row;
