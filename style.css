@@ -1,8 +1,8 @@
 @import "navigation.css";
 @import "footer.css";
+@import "subscribe.css";
 
 body {
-    font-size: 21px;
     margin: 0px;
 }
 
@@ -21,6 +21,8 @@ body {
     background-color: blue;
     padding-top: 40px;
     padding-bottom: 40px;
+    padding-left: 8px;
+    padding-right: 8px; 
 }
 
 .project-container > h1 {
@@ -31,28 +33,12 @@ body {
 
 .grid-wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
-    grid-gap: 20px;
-}
-
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    .box {
-        grid-template-columns: 1fr;
-    }
+    grid-template-columns: repeat(auto-fit, minmax(288px, 360px));
+    justify-content: center;
 }
 
 .box {
     background-color: #444;
-    margin: 20px;
     height: 300px;
-}
-
-/*SUBS*/
-
-.subs-container {
-    background-color: green; 
-    height: 40vh;
+    margin: 8px;
 }

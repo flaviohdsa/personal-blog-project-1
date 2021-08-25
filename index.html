@@ -3,6 +3,7 @@
 <head>
     <link href="style.css" rel="stylesheet">
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Cook Book</title>
 <meta name="description" content="Example" />
 </head>
@@ -30,7 +31,15 @@
         </div>
 
         <div class="subs-container">
-            <p>Subscribe</p>
+            <form action="/">
+                <label for="subs-email">Subscribe now</label><br>
+                <input type="text" id="subs-email" name="subs-email"><br>
+
+                <div class="button">
+                    <button type="submit">Send your message</button>
+                  </div>
+                  
+              </form>
         </div>
 
         <div class="footer-container">
