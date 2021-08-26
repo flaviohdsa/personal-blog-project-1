@@ -3,14 +3,27 @@
 .subs-container {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: green; 
     height: 40vh;
     
 }
 
 form > input {
-    width: 300px;
+    width: 400px;
     height: 30px;
+}
+
+@media screen and (max-width: 425px) {
+    form > input {
+        width: 288px;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    form > input {
+        width: 800px;
+    }
 }
 
 button {

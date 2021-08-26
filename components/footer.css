@@ -1,0 +1,13 @@
+/*FOOTER*/
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:black;
+    height: 20vh;
+}
+
+.footer-container > p {
+    color: white;  
+}

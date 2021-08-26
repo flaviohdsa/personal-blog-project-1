@@ -1,6 +1,6 @@
-@import "navigation.css";
-@import "footer.css";
-@import "subscribe.css";
+@import "components/navigation.css";
+@import "components/footer.css";
+@import "components/subscribe.css";
 
 body {
     margin: 0px;
@@ -38,7 +38,11 @@ body {
 }
 
 .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #444;
     height: 300px;
     margin: 8px;
+    
 }
