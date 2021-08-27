@@ -1,6 +1,6 @@
-@import "components/navigation.css";
-@import "components/footer.css";
-@import "components/subscribe.css";
+@import "navigation.css";
+@import "footer.css";
+@import "subscribe.css";
 
 body {
     margin: 0px;
