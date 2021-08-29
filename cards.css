@@ -1,0 +1,10 @@
+.box {
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin: 8px;
+    
+}
