@@ -7,6 +7,25 @@ body {
     margin: 0px;
 }
 
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+@media screen and (max-width: 425px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+}
+
+
 /*BANNER*/
 
 .banner-container {
@@ -14,20 +33,23 @@ body {
     align-items: center;
     justify-content: center;
     height: 60vh;
-    background-color: red;
+    background-image: url("imgs/banner-img.jpg");
+}
+
+.banner-container > h1 {
+    color: white;
 }
 
 /*PROJECTS*/
-.project-container {
-    background-color: blue;
+.recipe-container {
+    background-color: white;
     padding-top: 40px;
     padding-bottom: 40px;
     padding-left: 8px;
     padding-right: 8px; 
 }
 
-.project-container > h1 {
-    font-size: 40px;
+.recipe-container > h2 {
     display: flex;
     justify-content: center;
 }
