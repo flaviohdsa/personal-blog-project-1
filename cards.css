@@ -10,11 +10,13 @@
 
 .box-img {
     height: 200px;
-    width: auto;
+    width: 100%;
+    background-image: url("imgs/travel-guide-img.jpg");
+    background-size: cover;
 }
 
-.box-img > img { 
-    height: 100%;
-    width: 310px;
-    max-width: 100%;
+
+
+.box > h3 {
+    color:black;
 }

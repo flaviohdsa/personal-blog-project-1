@@ -8,11 +8,15 @@ body {
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 60px;
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
 }
 
 @media screen and (max-width: 425px) {
@@ -21,7 +25,7 @@ h2 {
     }
 
     h2 {
-        font-size: 30px;
+        font-size: 28px;
     }
 }
 
@@ -30,14 +34,26 @@ h2 {
 
 .banner-container {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 60vh;
-    background-image: url("imgs/banner-img.jpg");
+    background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.3), rgba(40, 180, 131, 0.3)), url(imgs/banner-img.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
-.banner-container > h1 {
+.banner-copy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.banner-copy > h1, h3 {
     color: white;
+    text-align: center;
 }
 
 /*PROJECTS*/

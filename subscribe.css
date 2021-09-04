@@ -2,11 +2,12 @@
 
 .subs-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #F8EE05; 
+    background-color: rgb(0, 241, 109); 
     height: 40vh;
-    
+    text-align: center;
 }
 
 form > input {
@@ -14,7 +15,7 @@ form > input {
     height: 30px;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 425px) { 
     form > input {
         width: 288px;
     }
