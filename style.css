@@ -38,7 +38,7 @@ h3 {
     align-items: center;
     justify-content: center;
     height: 60vh;
-    background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.3), rgba(40, 180, 131, 0.3)), url(imgs/banner-img.jpg);
+    background-image: url(imgs/banner-img.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -56,7 +56,8 @@ h3 {
     text-align: center;
 }
 
-/*PROJECTS*/
+/*POSTS*/
+
 .recipe-container {
     background-color: white;
     padding-top: 40px;

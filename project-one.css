@@ -1,8 +1,7 @@
 @import "style.css";
 
-body {
-    background-color: red;
-}
+
+/*HEADER*/
 
 .header {
     display: flex;
@@ -12,23 +11,40 @@ body {
     height: 40vh;
 }
 
+.header-img {
+    background-image: url(imgs/lake-img.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/*CONTENT*/
+
 .post-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 30vw;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
     grid-gap: 1em;
 }
 
 .content {
-    grid-column: 2 / 4;
+    grid-column: 2 / 6;
     grid-row: 1 / 2; 
-    background-color: violet;
+    background-color: white;
+    padding: 16px;
+    max-width: 800px;
 }
 
+.content > p {
+    font-size: 18px;
+    line-height: 1.75;
+    
+}
+
+/*SIDEBAR*/
 .sidebar {
     grid-column: 1/ span 1;
     grid-row: 1 / 2; 
-    background-color:turquoise; 
+    background-color:whitesmoke; 
 }
 
 @media (max-width: 700px) {
@@ -40,11 +56,11 @@ body {
     }
   
     .content {
-        grid-column: 1 / span 4;
+        grid-column: 1 / span 6;
         grid-row: 2 / 3;
     }
     .sidebar {
-        grid-column: 1 / span 4;
+        grid-column: 1 / span 6;
         grid-row: 1 / 2;
     }
     

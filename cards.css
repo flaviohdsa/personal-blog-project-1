@@ -1,11 +1,17 @@
+body {
+    font-family: "Roboto", serif;
+}
+
+
 .box {
     padding: 20px;
     background-color: #f7f7f7;
     border-radius: 10px;
-    height: 300px;
+    height: auto;
     margin: 8px;   
     -webkit-box-shadow: 1px 0px 12px -3px rgba(0,0,0,0.78); 
     box-shadow: 1px 0px 12px -3px rgba(0,0,0,0.78);
+    transition: all .2s ease-in-out;
 }
 
 .box-img {
@@ -15,8 +21,58 @@
     background-size: cover;
 }
 
+.box > a {
+    text-decoration: none;
+}
 
+.box > a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: black;
+}
 
-.box > h3 {
+.box:hover {
+    transform: scale(1.1);
+}
+
+.box-text > h4 {
     color:black;
+    font-size: 18px;
+}
+
+.box-social-medias {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: center;
+}
+
+.box-social-medias > p {
+    font-weight: 800;
+    text-decoration: none;
+    color: black;
+}
+
+.box-social-medias > p:visited, p:hover, p:active {
+    text-decoration: none;
+    color: black;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 15px;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
 }
