@@ -22,19 +22,19 @@ body {
 }
 
 .post-one {
-    background-image: url("imgs/travel-guide-img.jpg");
+    background-image: url("../imgs/travel-guide-img.jpg");
 }
 
 .post-two {
-    background-image: url("imgs/travel-guide-two-img.jpg");
+    background-image: url("../imgs/travel-guide-two-img.jpg");
 }
 
 .post-three {
-    background-image: url("imgs/travel-guide-three-img.jpg");
+    background-image: url("../imgs/travel-guide-three-img.jpg");
 }
 
 .post-four {
-    background-image: url("imgs/travel-guide-four-img.jpg");
+    background-image: url("../imgs/travel-guide-four-img.jpg");
 }
 
 .box > a {

@@ -1,7 +1,6 @@
-@import "navigation.css";
-@import "footer.css";
-@import "subscribe.css";
-@import "cards.css";
+@import "./navigation.css";
+@import "./cards.css";
+@import "./footer.css";
 
 body {
     margin: 0px;
@@ -38,7 +37,7 @@ h3 {
     align-items: center;
     justify-content: center;
     height: 60vh;
-    background-image: url(imgs/banner-img.jpg);
+    background-image: url(../imgs/banner-img.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -55,6 +54,12 @@ h3 {
     color: white;
     text-align: center;
 }
+
+.banner-container > figcaption {
+    color: white;
+    font-size: 12px;
+}
+
 
 /*POSTS*/
 
@@ -75,4 +80,10 @@ h3 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(288px, 360px));
     justify-content: center;
+}
+
+.box-img > figcaption {
+    color: white;
+    font-size: 12px;
+    padding: 8px;
 }
